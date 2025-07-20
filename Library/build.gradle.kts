@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
 }
+group = "com.github.YiLeChen16"
 
 android {
     namespace = "com.permission.yiledev"

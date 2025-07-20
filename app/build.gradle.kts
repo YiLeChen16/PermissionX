@@ -44,5 +44,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(project(":Library"))//引入权限请求依赖模块
+    //implementation(project(":Library"))//本地引入权限请求依赖模块
+    //通过JitPack引入自己编写的依赖库
+    implementation("com.github.YiLeChen16:PermissionX:1.0.0")
 }
