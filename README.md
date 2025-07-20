@@ -8,7 +8,7 @@ PermissionX 是一个用于简化Android项目中权限请求的一个轻量级�
 
 ### 1. gradle
 
-#### **Step 1.**将 JitPack 存储库添加到您的根目录下的 settings.gradle 构建文件中
+#### Step 1.将 JitPack 存储库添加到您的根目录下的 settings.gradle 构建文件中
 
 ```css
 	dependencyResolutionManagement {
@@ -20,7 +20,7 @@ PermissionX 是一个用于简化Android项目中权限请求的一个轻量级�
 	}
 ```
 
-#### **Step 2.** 添加PermissionX依赖
+#### Step 2. 添加PermissionX依赖
 
 ```css
 	dependencies {
@@ -30,7 +30,7 @@ PermissionX 是一个用于简化Android项目中权限请求的一个轻量级�
 
 ### 2.gradle.kts
 
-#### **Step 1.**将 JitPack 存储库添加到您的 settings.gradle.kts 构建文件中
+#### Step 1. 将 JitPack 存储库添加到您的 settings.gradle.kts 构建文件中
 
 ```css
 	dependencyResolutionManagement {
@@ -42,7 +42,7 @@ PermissionX 是一个用于简化Android项目中权限请求的一个轻量级�
 	}
 ```
 
-#### **Step 2.** 添加 PermissionX 依赖
+#### Step 2. 添加 PermissionX 依赖
 
 ```css
 	dependencies {
